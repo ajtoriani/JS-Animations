@@ -12,11 +12,11 @@ botao.addEventListener('click', () => {
     if (nomeDigitado === "alexandre") {
         elementoAnimacao.classList.add('sabre-jedi');
         document.body.classList.add('bg-jedi');
-        alert("Que a força esteja com você, Jedi!");
+        alert("Que a força esteja com você, Jedi ! Clique em OK para uma surpresa!");
     } else if (nomeDigitado === "proa"){
         elementoAnimacao.classList.add('sabre-sith');
         document.body.classList.add('bg-sith');
-        alert("Bem-vindo ao Lado Negro da Força, Darth Proa!");
+        alert("Bem-vindo ao Lado Negro da Força, Darth Proa ! Clique em OK para uma surpresa!!");
     } else {
         alert("Opa! O C3PO não entendeu o que você disse")
     }
